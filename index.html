@@ -3,19 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой первый деплой</title>
+    <title>GALLERY | 08</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖼️</text></svg>">
 </head>
 <body>
-    <h1>Привет, мир!</h1>
-    <p>Мой первый опубликованный сайт.</p>
-    
-    <img src="sample.jpg" alt="Пример изображения" loading="lazy">
-    
-    <button id="myButton">Нажми меня</button>
-    
+    <div class="container">
+        <!-- Верхний заголовок -->
+        <header class="header">
+            <div class="header-left">
+                <h1>NOTES ON VISION</h1>
+                <span class="count">4 IMAGES</span>
+            </div>
+            <div class="header-right">
+                <div class="category">
+                    <h2>UNDESIGNATED</h2>
+                    <span class="count">09 IMAGES</span>
+                </div>
+                <div class="category">
+                    <h2>FLORENCE</h2>
+                    <span class="count">20 IMAGES</span>
+                </div>
+                <div class="category">
+                    <h2>COHERENCE</h2>
+                    <span class="count">15 IMAGES</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Основная галерея -->
+        <main class="gallery">
+            <div class="gallery-grid">
+                <div class="image-item">
+                    <img src="images\legs.jpg" alt="Арт-работа 1" loading="lazy">
+                    <div class="image-overlay">
+                        <span class="image-title">COMPOSITION #01</span>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="images\flowers.jpg" alt="Арт-работа 2" loading="lazy">
+                    <div class="image-overlay">
+                        <span class="image-title">COMPOSITION #02</span>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="images\salvatore.jpg" alt="Арт-работа 3" loading="lazy">
+                    <div class="image-overlay">
+                        <span class="image-title">COMPOSITION #03</span>
+                    </div>
+                </div>
+                <div class="image-item">
+                    <img src="images\tea.jpg" alt="Арт-работа 4" loading="lazy">
+                    <div class="image-overlay">
+                        <span class="image-title">COMPOSITION #04</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Нижняя панель -->
+        <footer class="footer">
+            <div class="footer-left">
+                <div class="number-large">08</div>
+            </div>
+            <div class="footer-right">
+                <div class="gallery-title">GALLERY</div>
+            </div>
+        </footer>
+    </div>
+
     <script src="script.js"></script>
 </body>
-
 </html>
-
